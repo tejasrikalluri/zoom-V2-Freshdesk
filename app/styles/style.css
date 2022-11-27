@@ -1,0 +1,18 @@
+.pt12 {
+  padding-top: 12px;
+}
+.btn {
+  text-transform: none !important;
+}
+.pl5 {
+  padding-left: 45%;
+}
+.spcolor {
+  color: #02b875;
+}
+.errcolor {
+  color: #ff5959;
+}
+.fs20 {
+  font-size: 20px;
+}

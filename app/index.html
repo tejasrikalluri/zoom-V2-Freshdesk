@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.js"></script>
+  <script src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+  <script src="scripts/app.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" type="text/css" href="https://static.freshdev.io/fdk/2.0/assets/freshdesk.css" />
+</head>
+
+<body>
+  <div class="fw-widget-wrapper">
+    <div id="errorMsg" class="errcolor"></div>
+    <div class="pl5 spcolor fs20" id="loading">
+      <i class="fa fa-spin fa-circle-o-notch"></i>
+    </div>
+    <div id="displayDetails">
+      <button id="generate" class="btn btn-default regenrate">
+        Regenerate meeting URL
+      </button>
+      <button id="generate" class="btn btn-default generate">
+        Generate meeting URL
+      </button>
+      <div id="meetingUrl"></div>
+    </div>
+  </div>
+</body>
+
+</html>
